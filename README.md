@@ -21,10 +21,11 @@ The circuit is built around an **Arduino Uno** and utilizes several key electron
 The logic is written in C++ and continuously monitors the analog input from the FSR. The analog read maps the voltage to a value between 0 and 1023.
 
 **Operational States:**
-1. **Safe State (Pressure $\le$ 750):** * The RGB LED displays a **Purple** color by mixing the Red (PWM 128) and Blue (PWM 128) channels.
+1. **Safe State (Pressure $\le$ 750):** 
+   * The RGB LED displays a **Purple** color by mixing the Red (PWM 128) and Blue (PWM 128) channels.
    * The Piezo Buzzer remains silent.
    * The Vibration motor is off.
-2. **Alert State (Pressure > 750):** * The system detects an overload.
+3. **Alert State (Pressure > 750):** * The system detects an overload.
    * The RGB LED switches to a solid, bright **Red** (PWM 255).
    * The Buzzer is activated (`HIGH`) to sound an alarm.
    * The Vibration Motor is activated (`HIGH`) to provide strong haptic feedback.
