@@ -32,7 +32,7 @@ The logic is written in C++ and continuously monitors the analog input from the 
 ---
 
 ## 🚀 How to Run the Simulation
-1. Visit the live Tinkercad simulation here: `[Insert your Tinkercad Public Link]`
+1. Visit the live Tinkercad simulation here: `https://www.tinkercad.com/things/jiWnB9ApNUs-panagiwtkz`
 2. Click on **Start Simulation**.
 3. Click on the **Force Sensitive Resistor (FSR)** and adjust the pressure slider.
 4. Observe the system's reaction as the pressure crosses the coded threshold.
